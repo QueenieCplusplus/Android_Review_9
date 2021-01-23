@@ -1,5 +1,5 @@
 # Android_Review_9
-Network, LiveData, Dispatchers, Room to create Database, FrameLayout
+Network, LiveData, CoroutineScope and Dispatchers, Room to create Database, FrameLayout
 
 1. today's tip (::)
 
