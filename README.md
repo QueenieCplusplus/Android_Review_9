@@ -55,7 +55,7 @@ Network, LiveData, CoroutineScope and Dispatchers, Room to create Database, Fram
              
              <androidx.recyclerview.widget.RecyclerView
                android:id="@+id/recycler_view"
-               tools:listitem="@layout/katesvideoapp_itm"
+               tools:listitem="@layout/katesvideoapp_item"
              />
          
            </FrameLayout>
@@ -65,3 +65,57 @@ Network, LiveData, CoroutineScope and Dispatchers, Room to create Database, Fram
  6. set up properties for ProgressBar component.
  
       https://github.com/google-developer-training/android-kotlin-fundamentals-apps/blob/master/DevBytesWorkManager/app/src/main/res/layout/fragment_dev_byte.xml
+
+
+7. UI Layout designed for Video View, and its pusing data.
+
+       // app/src/main/res/layout/katesvideoapp_item.xml
+       
+       <?xml encdoing="utf-8"?>
+       <layout
+       >
+       
+            <data>
+           
+               <variable>
+                  name=""
+                  type=""
+               </variable>
+               
+               <variable>
+                  name=""
+                  type=""
+               </variable>
+               
+            </data>
+           
+            <com.google.android.material.card.MaterialCardView>
+            
+                  <androidx.constraintlayout.widget.ConstraintLayout>
+                  
+                     <androidx.constraintlayout.widget.ConsraintLayout/>
+                     
+                     <androidx.constraintlayout.widget.ConsraintLayout/>
+            
+                     <View/>
+
+                     <Button/>
+
+                     <TextView/>
+
+                   <TextView/>
+           
+                  </com.google.android.material.card.MaterialCardView>
+            
+            </androidx.constraintlayout.widget.ConstraintLayout>
+           
+          </layout>
+           
+           
+ 8. set up for properties of MateiralCardView.
+ 
+    https://github.com/google-developer-training/android-kotlin-fundamentals-apps/blob/master/DevBytesWorkManager/app/src/main/res/layout/devbyte_item.xml
+    
+9. set up for properties of ConstraintLayout and its Guideline.
+
+   https://github.com/google-developer-training/android-kotlin-fundamentals-apps/blob/master/DevBytesWorkManager/app/src/main/res/layout/devbyte_item.xml
