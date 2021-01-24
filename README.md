@@ -15,7 +15,7 @@ Network, LiveData, CoroutineScope and Dispatchers, Room to create Database, Fram
    
    https://medium.com/jastzeonic/kotlin-coroutine-那一兩件事情-685e02761ae0
 
-4. FrameLayout 幀佈局
+4. FrameLayout 幀佈局 for activity_main_katesVideoAp.xml
 
        <?xml encdoing="utf-8"?>
    
@@ -33,3 +33,35 @@ Network, LiveData, CoroutineScope and Dispatchers, Room to create Database, Fram
            />
    
        </FrameLayout>
+
+5. DataPush 資料推播, and using RecylerView for fragment_katesVieoApp.xml
+
+        <?xml encoding="utf-8"?>
+        <layout
+        
+         tools:context="KatesVideoAppFragment"
+        >
+
+           <data>
+            <variable
+               name=""
+               type=""
+            />
+           </data>
+        
+           <FrameLayout>
+           
+             <ProgressBar/>
+             
+             <androidx.recyclerview.widget.RecyclerView
+               android:id="@+id/recycler_view"
+               tools:listitem="@layout/katesvideoapp_itm"
+             />
+         
+           </FrameLayout>
+
+         </layout>
+     
+ 6. set up properties for ProgressBar component.
+ 
+      https://github.com/google-developer-training/android-kotlin-fundamentals-apps/blob/master/DevBytesWorkManager/app/src/main/res/layout/fragment_dev_byte.xml
