@@ -9,7 +9,7 @@ Network, LiveData, CoroutineScope and Dispatchers, Room to create Database, Fram
 
 2. today's tip (interface and abstract class)
 
-3. android's tio (coroutines and dispather)
+3. android's tip (coroutines and dispather)
 
    https://www.mdeditor.tw/pl/pDhh/zh-tw
    
