@@ -16,7 +16,7 @@ UI Design for FrameLayout, RecyclerView, MaterialCardView, and ConstraintLayout.
    
    https://medium.com/jastzeonic/kotlin-coroutine-那一兩件事情-685e02761ae0
 
-4. FrameLayout 幀佈局 for activity_main_katesVideoAp.xml
+4. FrameLayout 幀佈局 for activity_main_katesVideoApp.xml
 
        <?xml encdoing="utf-8"?>
    
