@@ -2,19 +2,14 @@
 
 UI Design for FrameLayout, RecyclerView, MaterialCardView, and ConstraintLayout. And add on their corresponding Data Class Component.
 
-1. today's tip (::)
 
-   class ref
-   
-   https://stackoverflow.com/questions/47400942/what-does-mean-in-kotlin
-
-2. android's tip (coroutines and dispather)
+1. android's tip (coroutines and dispather)
 
    https://www.mdeditor.tw/pl/pDhh/zh-tw
    
    https://medium.com/jastzeonic/kotlin-coroutine-那一兩件事情-685e02761ae0
 
-3. FrameLayout 幀佈局 for activity_main_katesVideoApp.xml
+2. FrameLayout 幀佈局 for activity_main_katesVideoApp.xml
 
        <?xml encdoing="utf-8"?>
    
@@ -33,7 +28,7 @@ UI Design for FrameLayout, RecyclerView, MaterialCardView, and ConstraintLayout.
    
        </FrameLayout>
 
-4. DataPush 資料推播 of data called viewModel, and using RecylerView for fragment_katesVieoApp.xml
+3. DataPush 資料推播 of data called viewModel, and using RecylerView for fragment_katesVieoApp.xml
 
         <?xml encoding="utf-8"?>
         <layout
@@ -61,12 +56,12 @@ UI Design for FrameLayout, RecyclerView, MaterialCardView, and ConstraintLayout.
 
          </layout>
      
-5. set up properties for ProgressBar component.
+4. set up properties for ProgressBar component.
  
       https://github.com/google-developer-training/android-kotlin-fundamentals-apps/blob/master/DevBytesWorkManager/app/src/main/res/layout/fragment_dev_byte.xml
 
 
-6. UI Layout designed for Video View, and its pusing data.
+5. UI Layout designed for Video View, and its pusing data.
 
        // app/src/main/res/layout/katesvideoapp_item.xml
        
@@ -111,10 +106,10 @@ UI Design for FrameLayout, RecyclerView, MaterialCardView, and ConstraintLayout.
           </layout>
            
            
-7. set up for properties of MateiralCardView.
+6. set up for properties of MateiralCardView.
  
     https://github.com/google-developer-training/android-kotlin-fundamentals-apps/blob/master/DevBytesWorkManager/app/src/main/res/layout/devbyte_item.xml
     
-8. set up for properties of ConstraintLayout and its Guideline.
+7. set up for properties of ConstraintLayout and its Guideline.
 
    https://github.com/google-developer-training/android-kotlin-fundamentals-apps/blob/master/DevBytesWorkManager/app/src/main/res/layout/devbyte_item.xml
