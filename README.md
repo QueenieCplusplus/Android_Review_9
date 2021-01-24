@@ -78,13 +78,13 @@ Network, LiveData, CoroutineScope and Dispatchers, Room to create Database, Fram
             <data>
            
                <variable>
-                  name=""
-                  type=""
+                  name="videoDomain"
+                  type="" 填入 Domain.VideoDomain 的根目錄路徑
                </variable>
                
                <variable>
-                  name=""
-                  type=""
+                  name="videoCB"
+                  type="" 填入 UI.VideoCB 的根目錄路徑
                </variable>
                
             </data>
