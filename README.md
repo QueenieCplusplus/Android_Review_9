@@ -34,7 +34,7 @@ Network, LiveData, CoroutineScope and Dispatchers, Room to create Database, Fram
    
        </FrameLayout>
 
-5. DataPush 資料推播, and using RecylerView for fragment_katesVieoApp.xml
+5. DataPush 資料推播 of data called viewModel, and using RecylerView for fragment_katesVieoApp.xml
 
         <?xml encoding="utf-8"?>
         <layout
@@ -44,8 +44,8 @@ Network, LiveData, CoroutineScope and Dispatchers, Room to create Database, Fram
 
            <data>
             <variable
-               name=""
-               type=""
+               name="viewModel"
+               type="" 填入 KatesVideoAppViewModel 的根目錄路徑
             />
            </data>
         
