@@ -1,5 +1,6 @@
 # Android_Review_9
-Network, LiveData, CoroutineScope and Dispatchers, Room to create Database, FrameLayout
+
+UI Design for FrameLayout, RecyclerView, MaterialCardView, and ConstraintLayout. And add on their corresponding Data Class Component.
 
 1. today's tip (::)
 
